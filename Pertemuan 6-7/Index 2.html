@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Validasi Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h2>Form Pendaftaran</h2>
+<form onsubmit="return validasiForm()">
+<label>Nama Lengkap:</label>
+<input type="text" id="nama"
+placeholder="Masukkan nama lengkap">
+<span id="errorNama" class="error"></span>
+<label>Email:</label>
+<input type="text" id="email"
+placeholder="Masukkan email">
+<span id="errorEmail" class="error"></span>
+<label>Password:</label>
+<input type="password" id="password"
+placeholder="Minimal 8 karakter">
+<span id="errorPassword" class="error"></span>
+<button type="submit">Daftar Sekarang</button>
+</form>
+</div>
+<script src="assets/js/script2.js"></script>
+</body>
+</html>

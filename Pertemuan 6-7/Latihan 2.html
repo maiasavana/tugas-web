@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 2 - Tampilkan Nama Mahasiswa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"] {
+            padding: 8px;
+            width: 250px;
+            font-size: 14px;
+        }
+        button {
+            padding: 8px 15px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        #hasil {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Latihan 2 — Tampilkan Nama Mahasiswa</h2>
+
+    <form id="formNama">
+        <div class="form-group">
+            <label for="namaInput">Nama Mahasiswa:</label>
+            <input type="text" id="namaInput" placeholder="Masukkan nama..." required>
+        </div>
+        <button type="submit">Tampilkan Sapaan</button>
+    </form>
+
+    <!-- Tempat menampilkan teks sapaan -->
+    <div id="hasil"></div>
+
+    <script src="assets/js/Latihan 2.js"></script>
+</body>
+</html>

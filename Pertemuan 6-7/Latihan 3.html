@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latihan 3 - Validasi Form Login</title>
+  <style>
+    .form-group {
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .error {
+      color: red;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+    .success {
+      color: green;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Form Login</h2>
+
+  <form id="loginForm">
+    <!-- Field Username -->
+    <div class="form-group">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username">
+      <div id="usernameError" class="error"></div>
+    </div>
+
+    <!-- Field Password -->
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+      <div id="passwordError" class="error"></div>
+    </div>
+
+    <button type="submit">Login</button>
+  </form>
+
+  <!-- Tempat menampilkan pesan berhasil -->
+  <div id="successMessage" class="success"></div>
+
+  <script src="assets/js/Latihan 3.js"></script>
+</body>
+</html>
