@@ -1,0 +1,21 @@
+body {
+    /* Mengatur warna latar, gambar (kosong), pengulangan, dan posisi */
+    background: white url() no-repeat top right;
+}
+body {
+    /* Mengatur jenis huruf dan warna teks utama */
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+
+h2 {
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(239, 156, 14);
+}
+
+/* Aturan untuk kelas .fak (Fakultas) */
+.fak:link {
+    color: red;
+}
+
+.fak:hover {

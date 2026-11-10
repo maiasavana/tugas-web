@@ -1,0 +1,33 @@
+h2 {
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(239, 156, 14);
+}
+
+/* Aturan untuk kelas .fak (Fakultas) */
+.fak:link {
+    color: red;
+}
+
+.fak:hover {
+    color: goldenrod;
+    font-size: 150%; /* 1000% terlalu besar, gunakan 150% agar tetap terbaca */
+}
+
+.fak:active {
+    font-style: italic;
+}
+
+.fak:visited {
+    color: maroon;
+}
+
+/* Aturan untuk kelas .pro (Program Studi) */
+.pro:link {
+    color: blue;
+    text-decoration: none;
+}
+
+.pro:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
